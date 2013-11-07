@@ -9,8 +9,6 @@ Install through composer. Add require `mjarestad/helper` to your `composer.json`
     "require": {
         "mjarestad/helper": "dev-master"
     }
-    
-###Laravel 4
 
 Add the ServiceProvider to the providers array in `app/config/app.php`
 
