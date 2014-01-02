@@ -8,7 +8,7 @@ class Helper
      * Get active class
      * @param  string $path
      * @param  string $class
-     * @return string|boolean
+     * @return string
      */
     public function getActiveClass($path = '/', $class = 'active')
     {
@@ -16,7 +16,5 @@ class Helper
         {
             return $class;
         }
-
-        return false;
     }
 }

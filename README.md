@@ -19,3 +19,9 @@ Add the Facade to the aliases array in `app/config/app.php`
     'Filtry'  => 'Mjarestad\Helper\Facades\Helper',
 
 ##Usage
+
+Get active class when uri is matched.
+
+    Helper::getActiveClass('/');
+
+    <a href="/users" class="{{ Helper::getActiveClass('/') }}">Users</a>
