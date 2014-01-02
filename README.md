@@ -16,7 +16,7 @@ Add the ServiceProvider to the providers array in `app/config/app.php`
     
 Add the Facade to the aliases array in `app/config/app.php`
 
-    'Filtry'  => 'Mjarestad\Helper\Facades\Helper',
+    'Helper' => 'Mjarestad\Helper\Facades\Helper',
 
 ##Usage
 
