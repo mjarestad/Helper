@@ -24,4 +24,4 @@ Get active class when uri is matched.
 
     Helper::getActiveClass('/');
 
-    <a href="/users" class="{{ Helper::getActiveClass('/') }}">Users</a>
+    <a href="/users" class="{{ Helper::getActiveClass('/users') }}">Users</a>
